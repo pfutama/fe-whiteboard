@@ -69,7 +69,7 @@ export const postSignUp = (body) => async (dispatch) => {
 };
 
 export const postLogIn = (body) => async (dispatch) => {
-  console.log(body, "body action");
+  // console.log(body, "body action");
   let isLoading = true;
   dispatch(setLoading(isLoading));
   try {

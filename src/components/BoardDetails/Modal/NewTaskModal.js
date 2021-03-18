@@ -56,7 +56,7 @@ const P = styled.p`
 const options = ["one", "two", "three"];
 
 const onSelect = () => {
-  console.log("test ooption");
+  // console.log("test ooption");
 };
 
 const StyledDropdown = styled(Dropdown)`
